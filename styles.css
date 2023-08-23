@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+#secForm {
+    display: flex;
+    margin: 1rem;
+}
+
+form {
+    margin: 0 auto;
+    font-size: 1.5rem;
+}
+
+input[type=number] {
+    border: 1px solid black;
+    width: 2rem;
+    height: 2rem;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+input[type=submit],
+input[type=reset] {
+    border: 1px solid black;
+    padding: .7rem;
+    width: 100%;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
+
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    border: 1px solid black;
+    width: 70%;
+}
+
+tr,
+td,
+th {
+    border: 1px solid black;
+    padding: 1.2rem;
+    width: 33%;
+    font-size: 1.3rem;
+    text-align: center;
+}
